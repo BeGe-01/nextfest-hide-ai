@@ -8,9 +8,7 @@ Hides Steam Next Fest games that disclose AI-generated content. You can hide eve
 
 ### Firefox
 
-Install the add-on from Firefox Add-ons:
-
-**[AI Filter for Steam Next Fest on addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/ai-filter-for-steam-next-fest/)**
+The Firefox add-on is currently under review. Please use the [userscript version](#chrome-edge-opera-brave-userscript) instead.
 
 ### Chrome, Edge, Opera, Brave (userscript)
 
