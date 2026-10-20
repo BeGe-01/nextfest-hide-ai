@@ -3,6 +3,7 @@
 // @namespace    nextfest-hide-ai
 // @version      1.0
 // @description  Hides Steam Next Fest games that disclose AI-generated content, or only AI art/audio. Not affiliated with Valve or Steam.
+// @author       BeGe
 // @match        https://store.steampowered.com/sale/nextfest*
 // @homepageURL  https://github.com/BeGe-01/nextfest-hide-ai
 // @supportURL   https://github.com/BeGe-01/nextfest-hide-ai/issues
