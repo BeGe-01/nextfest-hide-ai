@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "AI Filter for Steam Next Fest",
+  "version": "1.0",
+  "description": "Hides Steam Next Fest games that disclose AI-generated content, or only AI art/audio. Not affiliated with Valve or Steam.",
+  "icons": { "128": "icon.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://store.steampowered.com/sale/nextfest*"],
+      "js": ["nextfest-hide-ai.user.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{0b7726e5-db49-49c2-a60b-f2dcdbaf779f}",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": { "required": ["none"] }
+    }
+  }
+}
